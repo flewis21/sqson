@@ -4,13 +4,16 @@
   "description": "",
   "main": "handler.js",
   "devDependencies": {
+    "express": "^4.17.1",
     "serverless": "^2.59.0",
-    "serverless-offline": "^8.2.0"
+    "serverless-offline": "^8.2.0",
+    "standard": "^16.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "plugin": "serverless plugin install -n ",
-    "offline": "serverless offline"
+    "offline": "serverless offline",
+    "lint": "standard"
   },
   "author": "",
   "license": "MIT"
