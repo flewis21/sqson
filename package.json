@@ -1,0 +1,17 @@
+{
+  "name": "trek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "devDependencies": {
+    "serverless": "^2.59.0",
+    "serverless-offline": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plugin": "serverless plugin install -n ",
+    "offline": "serverless offline"
+  },
+  "author": "",
+  "license": "MIT"
+}
