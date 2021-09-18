@@ -5,6 +5,7 @@
   "main": "handler.js",
   "devDependencies": {
     "express": "^4.17.1",
+    "npm": "^7.24.0",
     "serverless": "^2.59.0",
     "serverless-offline": "^8.2.0",
     "standard": "^16.0.3"
@@ -16,5 +17,13 @@
     "lint": "standard"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flewis21/sqson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flewis21/sqson/issues"
+  },
+  "homepage": "https://github.com/flewis21/sqson#readme"
 }

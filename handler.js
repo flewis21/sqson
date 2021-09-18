@@ -26,7 +26,7 @@ console.log('Executing post @', new Date().toUTCString())
 const body = JSON.parse(event.body)
 
     const params = {
-        Items = {
+        Items: {
             messageId: new Date().getTime(),
             message: body.message
         },
