@@ -17,8 +17,8 @@ module.exports.hello = async (event) => {
   // return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
 }
 
-// write message to the table
-module.export.post = async (event) => {
+// write message to the table);
+module.export.post = async () => {
 
 console.log('Executing post @', new Date().toUTCString())
     console.log("Request: " + JSON.stringify(event));
@@ -33,7 +33,7 @@ const body = JSON.parse(event.body)
     };
 
 try {
-    const data = params.Items,
+    const data = params.Items
     return { statusCode: 200, body: JSON.stringify({ event, params, data })};
 } catch (error) {
     return { statusCode: 400, request: { evnet, params }, error: `Error -> Post: ${error.stack}`};
