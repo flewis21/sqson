@@ -27,8 +27,8 @@ const body = JSON.parse(event.body)
 
     const params = {
         Items = {
-            messageId = new Date().getTime(),
-            message = body.message
+            messageId: new Date().getTime(),
+            message: body.message
         },
     };
 
